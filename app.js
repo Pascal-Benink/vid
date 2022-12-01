@@ -88,3 +88,11 @@ function us() {
     }
 }
 let mrct = document.querySelector(".mrc");
+
+function mrc() {
+    if (mrct.classList.contains("active")) {
+        mrct.classList.remove("active")
+    } else {
+        mrct.classList.add("active")
+    }
+}
