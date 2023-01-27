@@ -77,22 +77,23 @@ function dutch() {
         dutcht.classList.add("active")
     }
 }
-// usradio
-let ust = document.querySelector(".us");
+// gtav radio
+let gta5 = document.querySelector(".gta5");
 
-function us() {
-    if (ust.classList.contains("active")) {
-        ust.classList.remove("active")
+function gtav2() {
+    if (gta5.classList.contains("active")) {
+        gta5.classList.remove("active")
     } else {
-        ust.classList.add("active")
+        gta5.classList.add("active")
     }
 }
-let mrct = document.querySelector(".mrc");
+// gtasa radio
+let gtas = document.querySelector(".gtas");
 
-function mrc() {
-    if (mrct.classList.contains("active")) {
-        mrct.classList.remove("active")
+function gtasa2() {
+    if (gtas.classList.contains("active")) {
+        gtas.classList.remove("active")
     } else {
-        mrct.classList.add("active")
+        gtas.classList.add("active")
     }
 }
