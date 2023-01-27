@@ -137,3 +137,26 @@ a {
     flex-direction: column;
     justify-content: end;
 }
+video{
+    width: 78vw;
+    padding: 0.5rem 0rem 3rem;
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.req{
+    font-size: 1.3rem;
+}
+.moviename {
+    text-align: center;
+}
+.movieselect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.warning{
+    color: red;
+}
