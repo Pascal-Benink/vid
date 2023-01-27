@@ -80,7 +80,7 @@ function dutch() {
 // gtav radio
 let gta5 = document.querySelector(".gta5");
 
-function gtav2() {
+function gtav() {
     if (gta5.classList.contains("active")) {
         gta5.classList.remove("active")
     } else {
@@ -90,7 +90,7 @@ function gtav2() {
 // gtasa radio
 let gtas = document.querySelector(".gtas");
 
-function gtasa2() {
+function gtasa() {
     if (gtas.classList.contains("active")) {
         gtas.classList.remove("active")
     } else {
